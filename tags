@@ -36,15 +36,27 @@
 !_TAG_PROGRAM_VERSION	6.2.0	//
 Work from *Structure and Interpretation of Computer Programs*	README.md	/^# Work from *Structure and Interpretation of Computer Programs*$/;"	c
 add-rat	Chapter2/rational-pairs.scm	/^(define (add-rat x y)$/;"	f
+area	Chapter2/rectangle-1.scm	/^(define (area rectangle)$/;"	f
+area	Chapter2/rectangle-2.scm	/^(define (area rectangle)$/;"	f
 denom	Chapter2/rational-pairs.scm	/^(define denom cdr)$/;"	f
+distance	Chapter2/segment-pairs.scm	/^(define (distance segment)$/;"	f
 div-rat	Chapter2/rational-pairs.scm	/^(define (div-rat x y)$/;"	f
 equal-rat?	Chapter2/rational-pairs.scm	/^(define (equal-rat? x y)$/;"	f
 make-point	Chapter2/segment-pairs.scm	/^(define (make-point x y)$/;"	f
 make-rat	Chapter2/rational-pairs.scm	/^(define (make-rat num den)$/;"	f
+make-rectangle	Chapter2/rectangle-1.scm	/^(define (make-rectangle base height)$/;"	f
+make-rectangle	Chapter2/rectangle-2.scm	/^(define (make-rectangle base-seg height)$/;"	f
 make-segment	Chapter2/segment-pairs.scm	/^(define (make-segment start end)$/;"	f
 midpoint-segment	Chapter2/segment-pairs.scm	/^(define (midpoint-segment segment)$/;"	f
 mul-rat	Chapter2/rational-pairs.scm	/^(define (mul-rat x y)$/;"	f
 numer	Chapter2/rational-pairs.scm	/^(define numer car)$/;"	f
+perimeter	Chapter2/rectangle-1.scm	/^(define (perimeter rectangle)$/;"	f
+perimeter	Chapter2/rectangle-2.scm	/^(define (perimeter rectangle)$/;"	f
+print-point	Chapter2/segment-pairs.scm	/^(define (print-point p)$/;"	f
+rectangle-base	Chapter2/rectangle-1.scm	/^(define rectangle-base car)$/;"	f
+rectangle-base	Chapter2/rectangle-2.scm	/^(define (rectangle-base rectangle)$/;"	f
+rectangle-height	Chapter2/rectangle-1.scm	/^(define rectangle-height cdr)$/;"	f
+rectangle-height	Chapter2/rectangle-2.scm	/^(define rectangle-height cdr)$/;"	f
 segment-end	Chapter2/segment-pairs.scm	/^(define segment-end cdr)$/;"	f
 segment-start	Chapter2/segment-pairs.scm	/^(define segment-start car)$/;"	f
 sign	Chapter2/rational-pairs.scm	/^(define (sign n)$/;"	f
