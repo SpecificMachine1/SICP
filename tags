@@ -35,9 +35,16 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	6.2.0	//
 Work from *Structure and Interpretation of Computer Programs*	README.md	/^# Work from *Structure and Interpretation of Computer Programs*$/;"	c
+add-1	Chapter2/church-numerals.scm	/^(define (add-1 n) (lambda (f) (lambda (x) (f ((n f) x))))) ; \\n.\\f.\\x.f (n f x)  $/;"	f
 add-rat	Chapter2/rational-pairs.scm	/^(define (add-rat x y)$/;"	f
 area	Chapter2/rectangle-1.scm	/^(define (area rectangle)$/;"	f
 area	Chapter2/rectangle-2.scm	/^(define (area rectangle)$/;"	f
+car	Chapter2/cons-message.scm	/^(define (car z)$/;"	f
+car	Chapter2/cons-numeric.scm	/^(define (car z)$/;"	f
+cdr	Chapter2/cons-numeric.scm	/^(define (cdr z)$/;"	f
+cons	Chapter2/cons-message.scm	/^(define (cons x y)$/;"	f
+cons	Chapter2/cons-numeric.scm	/^(define (cons x y)$/;"	f
+define	Chapter2/cons-message.scm	/^(define (define z)$/;"	f
 denom	Chapter2/rational-pairs.scm	/^(define denom cdr)$/;"	f
 distance	Chapter2/segment-pairs.scm	/^(define (distance segment)$/;"	f
 div-rat	Chapter2/rational-pairs.scm	/^(define (div-rat x y)$/;"	f
@@ -63,3 +70,4 @@ sign	Chapter2/rational-pairs.scm	/^(define (sign n)$/;"	f
 sub-rat	Chapter2/rational-pairs.scm	/^(define (sub-rat x y)$/;"	f
 x-point	Chapter2/segment-pairs.scm	/^(define x-point car)$/;"	f
 y-point	Chapter2/segment-pairs.scm	/^(define y-point cdr)$/;"	f
+zero	Chapter2/church-numerals.scm	/^(define zero (lambda (f) (lambda (x) x))) ; \\f.\\x.x$/;"	f
