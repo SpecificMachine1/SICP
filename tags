@@ -34,6 +34,13 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	6.2.0	//
+<point>	Chapter2/gauche-object/segment.scm	/^(define-class <point> () ((x :init-keyword :x :getter x-point)$/;"	Y	definer:DEFINE-CLASS
+<point>	Chapter2/record/segment.scm	/^(define-record-type <point>$/;"	Y	definer:DEFINE-RECORD-TYPE
+<ratio>	Chapter2/gauche-object/rational.scm	/^(define-class <ratio> () ((n :init-keyword :n :accessor numer)$/;"	Y	definer:DEFINE-CLASS
+<rational>	Chapter2/record/rational.scm	/^(define-record-type <rational>$/;"	Y	definer:DEFINE-RECORD-TYPE
+<segment>	Chapter2/gauche-object/segment.scm	/^(define-class <segment> () ((start :init-keyword :start :getter segment-start)$/;"	Y	definer:DEFINE-CLASS
+<segment>	Chapter2/record/segment.scm	/^(define-record-type <segment>$/;"	Y	definer:DEFINE-RECORD-TYPE
+Chapter	Chapter2/README.md	/^#Chapter 2, Building Abstractions with Data$/;"	h
 Work from *Structure and Interpretation of Computer Programs*	README.md	/^# Work from *Structure and Interpretation of Computer Programs*$/;"	c
 add-1	Chapter2/church-numerals.scm	/^(define (add-1 n) (lambda (f) (lambda (x) (f ((n f) x))))) ; \\n.\\f.\\x.f (n f x)  $/;"	f
 add-rat	Chapter2/rational-pairs.scm	/^(define (add-rat x y)$/;"	f
@@ -49,10 +56,14 @@ denom	Chapter2/rational-pairs.scm	/^(define denom cdr)$/;"	f
 distance	Chapter2/segment-pairs.scm	/^(define (distance segment)$/;"	f
 div-rat	Chapter2/rational-pairs.scm	/^(define (div-rat x y)$/;"	f
 equal-rat?	Chapter2/rational-pairs.scm	/^(define (equal-rat? x y)$/;"	f
+make-point	Chapter2/gauche-object/segment.scm	/^(define (make-point x y)$/;"	f
 make-point	Chapter2/segment-pairs.scm	/^(define (make-point x y)$/;"	f
+make-rat	Chapter2/gauche-object/rational.scm	/^(define (make-rat num den)$/;"	f
 make-rat	Chapter2/rational-pairs.scm	/^(define (make-rat num den)$/;"	f
+make-rat	Chapter2/record/rational.scm	/^(define (make-rat num den)$/;"	f
 make-rectangle	Chapter2/rectangle-1.scm	/^(define (make-rectangle base height)$/;"	f
 make-rectangle	Chapter2/rectangle-2.scm	/^(define (make-rectangle base-seg height)$/;"	f
+make-segment	Chapter2/gauche-object/segment.scm	/^(define (make-segment start end)$/;"	f
 make-segment	Chapter2/segment-pairs.scm	/^(define (make-segment start end)$/;"	f
 midpoint-segment	Chapter2/segment-pairs.scm	/^(define (midpoint-segment segment)$/;"	f
 mul-rat	Chapter2/rational-pairs.scm	/^(define (mul-rat x y)$/;"	f
