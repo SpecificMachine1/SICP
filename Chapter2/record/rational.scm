@@ -2,7 +2,7 @@
 
 (define-record-type <rational>
   (rational n d)
-  rational?
+  ratio?   ;; rational? already exists
   (n numer)
   (d denom))
 
