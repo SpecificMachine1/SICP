@@ -52,6 +52,8 @@ cdr	Chapter2/cons-numeric.scm	/^(define (cdr z)$/;"	f
 cons	Chapter2/cons-message.scm	/^(define (cons x y)$/;"	f
 cons	Chapter2/cons-numeric.scm	/^(define (cons x y)$/;"	f
 define	Chapter2/cons-message.scm	/^(define (define z)$/;"	f
+denom	Chapter2/generic/rational.scm	/^(define-generic denom)$/;"	Y	definer:DEFINE-GENERIC
+denom	Chapter2/generic/rational.scm	/^(define-method (denom (rat rat?))$/;"	Y	definer:DEFINE-METHOD
 denom	Chapter2/rational-pairs.scm	/^(define denom cdr)$/;"	f
 distance	Chapter2/segment-pairs.scm	/^(define (distance segment)$/;"	f
 div-rat	Chapter2/rational-pairs.scm	/^(define (div-rat x y)$/;"	f
@@ -59,6 +61,8 @@ equal-rat?	Chapter2/rational-pairs.scm	/^(define (equal-rat? x y)$/;"	f
 make-point	Chapter2/gauche-object/segment.scm	/^(define (make-point x y)$/;"	f
 make-point	Chapter2/segment-pairs.scm	/^(define (make-point x y)$/;"	f
 make-rat	Chapter2/gauche-object/rational.scm	/^(define (make-rat num den)$/;"	f
+make-rat	Chapter2/generic/rational.scm	/^(define-generic make-rat)$/;"	Y	definer:DEFINE-GENERIC
+make-rat	Chapter2/generic/rational.scm	/^(define-method (make-rat (num integer?) (den integer?))$/;"	Y	definer:DEFINE-METHOD
 make-rat	Chapter2/rational-pairs.scm	/^(define (make-rat num den)$/;"	f
 make-rat	Chapter2/record/rational.scm	/^(define (make-rat num den)$/;"	f
 make-rectangle	Chapter2/rectangle-1.scm	/^(define (make-rectangle base height)$/;"	f
@@ -67,10 +71,13 @@ make-segment	Chapter2/gauche-object/segment.scm	/^(define (make-segment start en
 make-segment	Chapter2/segment-pairs.scm	/^(define (make-segment start end)$/;"	f
 midpoint-segment	Chapter2/segment-pairs.scm	/^(define (midpoint-segment segment)$/;"	f
 mul-rat	Chapter2/rational-pairs.scm	/^(define (mul-rat x y)$/;"	f
+numer	Chapter2/generic/rational.scm	/^(define-generic numer)$/;"	Y	definer:DEFINE-GENERIC
+numer	Chapter2/generic/rational.scm	/^(define-method (numer (rat rat?))$/;"	Y	definer:DEFINE-METHOD
 numer	Chapter2/rational-pairs.scm	/^(define numer car)$/;"	f
 perimeter	Chapter2/rectangle-1.scm	/^(define (perimeter rectangle)$/;"	f
 perimeter	Chapter2/rectangle-2.scm	/^(define (perimeter rectangle)$/;"	f
 print-point	Chapter2/segment-pairs.scm	/^(define (print-point p)$/;"	f
+rat?	Chapter2/generic/rational.scm	/^(define (rat? obj) (and (vector? obj) $/;"	f
 rectangle-base	Chapter2/rectangle-1.scm	/^(define rectangle-base car)$/;"	f
 rectangle-base	Chapter2/rectangle-2.scm	/^(define (rectangle-base rectangle)$/;"	f
 rectangle-height	Chapter2/rectangle-1.scm	/^(define rectangle-height cdr)$/;"	f
