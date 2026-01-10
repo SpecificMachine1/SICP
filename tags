@@ -49,6 +49,7 @@ area	Chapter2/rectangle-1.scm	/^(define (area rectangle)$/;"	f
 area	Chapter2/rectangle-2.scm	/^(define (area rectangle)$/;"	f
 car	Chapter2/cons-message.scm	/^(define (car z)$/;"	f
 car	Chapter2/cons-numeric.scm	/^(define (car z)$/;"	f
+cc	Chapter2/make-change.scm	/^(define (cc amount coin-values)$/;"	f
 cdr	Chapter2/cons-numeric.scm	/^(define (cdr z)$/;"	f
 center	Chapter2/intervals.scm	/^(define (center i)$/;"	f
 cons	Chapter2/cons-message.scm	/^(define (cons x y)$/;"	f
@@ -61,6 +62,8 @@ distance	Chapter2/segment-pairs.scm	/^(define (distance segment)$/;"	f
 div-interval	Chapter2/intervals.scm	/^(define (div-interval x y)$/;"	f
 div-rat	Chapter2/rational-pairs.scm	/^(define (div-rat x y)$/;"	f
 equal-rat?	Chapter2/rational-pairs.scm	/^(define (equal-rat? x y)$/;"	f
+except-first-denomination	Chapter2/make-change.scm	/^(define except-first-denomination cdr)$/;"	f
+first-denomination	Chapter2/make-change.scm	/^(define first-denomination car)$/;"	f
 lower-bound	Chapter2/cons/intervals.scm	/^(define lower-bound car)$/;"	f
 make-center-percent	Chapter2/intervals.scm	/^(define (make-center-percent center percent)$/;"	f
 make-center-width	Chapter2/intervals.scm	/^(define (make-center-width c w)$/;"	f
@@ -80,6 +83,7 @@ midpoint-segment	Chapter2/segment-pairs.scm	/^(define (midpoint-segment segment)
 mul-2	Chapter2/intervals.scm	/^(define (mul-2 x y)$/;"	f
 mul-interval	Chapter2/intervals.scm	/^(define (mul-interval x y)$/;"	f
 mul-rat	Chapter2/rational-pairs.scm	/^(define (mul-rat x y)$/;"	f
+no-more?	Chapter2/make-change.scm	/^(define no-more? null?)$/;"	f
 numer	Chapter2/generic/rational.scm	/^(define-generic numer)$/;"	Y	definer:DEFINE-GENERIC
 numer	Chapter2/generic/rational.scm	/^(define-method (numer (rat rat?))$/;"	Y	definer:DEFINE-METHOD
 numer	Chapter2/rational-pairs.scm	/^(define numer car)$/;"	f
@@ -96,7 +100,9 @@ segment-start	Chapter2/segment-pairs.scm	/^(define segment-start car)$/;"	f
 sign	Chapter2/rational-pairs.scm	/^(define (sign n)$/;"	f
 sub-interval	Chapter2/intervals.scm	/^(define (sub-interval x y)$/;"	f
 sub-rat	Chapter2/rational-pairs.scm	/^(define (sub-rat x y)$/;"	f
+uk-coins	Chapter2/make-change.scm	/^(define uk-coins (list 100 50 20 10 5 2 1 0.5))$/;"	f
 upper-bound	Chapter2/cons/intervals.scm	/^(define upper-bound cdr)$/;"	f
+us-coins	Chapter2/make-change.scm	/^(define us-coins (list 50 25  10 5 1))$/;"	f
 width	Chapter2/intervals.scm	/^(define (width i)$/;"	f
 width-percent	Chapter2/intervals.scm	/^(define (width-percent i)$/;"	f
 x-point	Chapter2/segment-pairs.scm	/^(define x-point car)$/;"	f
